@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Plotting perfects Y axes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="dist/billboard.min.css">
+	<link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+	<div class="header">
+		<div id="title">Plotting perfect Y axes</div>
+
+		<form id="formEdit">
+			<div>
+				<label>
+					<span>intervals</span>
+					<input placeholder="ex: 4" required name="intervals" type="number" value="4" />
+				</label>
+			</div>
+
+			<div>
+				<label>
+					<span>max value</span>
+					<input placeholder="ex: 2000" required name="maxValue" type="number" value="2000" />
+				</label>
+			</div>
+
+			<div>
+				<label>
+					<input name="formatNumbers" type="checkbox" />
+					<span>format numbers</span>
+				</label>
+			</div>
+
+			<div>
+				<button name="btnSubmit">apply changes</button>
+			</div>
+		</form>
+
+		<div class="develop">
+			<a href="https://github.com/interaminense" target="_blank">@interaminense</a>
+		</div>
+	</div>
+
+	<div id="chart"></div>
+
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
