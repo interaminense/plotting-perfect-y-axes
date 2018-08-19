@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+/* style for chart */
+.bb-tooltip-container {
+	color: #000;
+}
+
+.bb-shape.bb-line {
+	stroke-width: 1px;
+}
+
+.bb .bb-axis path,
+.bb-axis .tick line {
+	stroke: #fff;
+}
+
+.bb-axis text, .bb-legend-item text {
+	fill: #fff;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 10px;
+}
+
+/* style for page */
+body, html {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #2d2424;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.header {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#title {
+	margin: 3rem auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 900px;
+	font-size: 60px;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+}
+
+#chart {
+	width: 100%;
+	max-width: 900px;
+	margin: 3rem auto 0;
+}
+
+#formEdit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#formEdit > div {
+	margin: 0 0.5rem;
+}
+
+#formEdit > div:first-child {
+	margin-left: 0;
+}
+
+#formEdit > div:last-child {
+	margin-right: 0;
+}
+
+#formEdit input[type="number"] {
+	border-width: 0;
+	background-color: rgba(0, 0, 0, .1);
+	padding: 0.5rem;
+	border-radius: 4px;
+	color: #fff;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 18px;
+	max-width: 130px;
+	margin-left: 0.5rem;
+}
+
+#formEdit label {
+	display: flex;
+	align-items: center;
+}
+
+#formEdit button {
+	padding: 1rem 2rem;
+	border-width: 0;
+	border-radius: 4px;
+	background-color: #0689BF;
+	font-size: 14px;
+	font-family: 'Exo 2', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	outline: none;
+	cursor: pointer;
+}
+
+.develop {
+	position: absolute;
+	right: 2rem;
+	bottom: 2rem;
+}
+
+.develop a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
